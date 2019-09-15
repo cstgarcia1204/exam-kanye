@@ -15,7 +15,7 @@ const HELP_TEXT ={
 const Index = ({quotes})=>(
     <Layout>
         <Content>
-           <Header>Kanye Quotes</Header>
+           <Header>Kanye Quotes Version 2.0</Header>
            {quotes.map(({id,quote})=>
            (
                <Card key={id}>
